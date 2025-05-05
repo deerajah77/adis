@@ -6,13 +6,68 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
+.banner-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 700px;
+}
+
+.banner-content h1 {
+  font-size: 32px;
+  color: #156e71;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner-buttons a.button-primary {
+  background-color: #156e71;
+  color: #ffffff;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.banner-buttons a.button-primary:hover {
+  background-color: #004d4d;
+}
+
+/* Mobilní úpravy */
 @media (max-width: 768px) {
   .main-banner {
-    background-attachment: scroll;
     height: 400px;
+    background-attachment: scroll;
+  }
+  .banner-content {
+    padding: 20px;
+  }
+  .banner-content h1 {
+    font-size: 24px;
+  }
+  .banner-buttons a.button-primary {
+    width: 100%;
+    text-align: center;
   }
 }
+
 
 .navigation-in {
     font-size: 16px;
