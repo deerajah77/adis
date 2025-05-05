@@ -1,1 +1,422 @@
+.main-banner {
+  width: 100%;
+  height: 600px;
+  background-image: url('/user/documents/upload/children-having-lunch-braek_1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .main-banner {
+    background-attachment: scroll;
+    height: 400px;
+  }
+}
 
+.navigation-in {
+    font-size: 16px;
+    line-height: 14px;
+}
+.benefitBanner .benefitBanner__picture {
+    height: 75px;
+}
+.benefitBanner .benefitBanner__data {
+    font-size: 15px;
+}
+.benefitBanner__data {
+    color: var(--color-secondary-hover);
+}
+.btn.btn-primary, a.btn.btn-primary:hover {
+    background-color: var(--color-secondary);
+    color: var(--cookies-notice-button-hover);
+}
+.btn.btn-primary, a.btn.btn-primary {
+    background-color: var(--color-secondary-hover);
+    border-color: var(--color-secondary-hover);
+}
+body {
+  font-family: 'Quicksand', Arial, sans-serif!important;
+  background: #f9fdfd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, p, a, button, input, textarea {
+  font-family: 'Quicksand', Arial, sans-serif!important;
+  letter-spacing: 0.3px;
+}
+
+/* ===== Základní nastavení ===== */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0px 20px !important;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 20px!important;
+  }
+}
+
+/* ===== Nadpisy ===== */
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #62c3be;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #62c3be;
+}
+
+/* ===== Texty a odstavce ===== */
+p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* ======== Tlačítka ======== */
+.button-primary {
+  background-color: #156e71;
+  color: #ffffff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #004d4d;
+}
+
+/* ===== Sekce ===== */
+.section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+/* ===== Boxy a bloky ===== */
+.box {
+  background-color: #f1fdfd;
+  border: 2px solid #62c3be;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.box h3 {
+  margin-top: 0;
+}
+
+/* ===== Formuláře (Přihláška) ===== */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #62c3be;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+  background-color: #156e71;
+  color: #ffffff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #004d4d;
+}
+
+/* ======== FAQ Specifické (z předchozí spolupráce) ======== */
+.faq-container {
+  margin-top: 40px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border: 2px solid #156e71;
+  border-radius: 10px;
+  background: #ffffff;
+  overflow: hidden;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.faq-item.open {
+  background: #c9f0ed;
+  border-color: #156e71;
+}
+
+.faq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #156e71;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.faq-question:hover {
+  color: #62c3be;
+}
+
+.faq-icon {
+  font-size: 24px;
+  margin-left: 10px;
+  transition: transform 0.4s ease, color 0.4s ease;
+  color: #156e71;
+}
+
+.faq-item.open .faq-icon {
+  transform: rotate(180deg) scale(1.3);
+  color: #004d4d;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  font-size: 15px;
+  color: #555;
+  background: #ffffff;
+  padding: 0 20px;
+  letter-spacing: 0.3px;
+}
+
+.faq-answer.open {
+  padding: 15px 20px;
+}
+
+
+#footer h4 {
+    color: var(--color-primary, #156e71);
+}
+
+#footer a {
+    color: var(--color-primary);
+}
+a.social-icon {
+    background-color: #62c3be;
+    border-color: var(--color-secondary);
+    color: var(--color-secondary);
+}
+.navigation-in ul li a b {
+    font-weight: 700;
+}
+#header .header-top .header-top-wrapper .site-name a img, #header .header-top .header-top-wrapper h1.site-name a img {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.navigation-in .has-third-level div > ul a, .navigation-in > ul > li > a, .navigation-in > ul > li > a:hover {
+    color: #ffffff;
+}
+@media (min-width:768px) {
+    .navigation-in {
+        background-color: var(--color-tertiary-hover);
+    }
+}
+
+.plus-gallery-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.plus-gallery-item {
+  flex: 0 0 calc(25% - 20px);
+  max-width: calc(25% - 20px);
+  aspect-ratio: 1/1;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background: none;
+}
+
+.plus-gallery-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.plus-gallery-item img {
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Efekt ztmavení přes overlay */
+.plus-gallery-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+  border-radius: 10px;
+  pointer-events: none; /* aby overlay neblokoval klik */
+}
+
+.plus-gallery-item:hover::after {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Responzivita */
+@media (max-width: 992px) {
+  .plus-gallery-item {
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .plus-gallery-item {
+    flex: 0 0 calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .plus-gallery-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Lightbox styl */
+.featherlight-content {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.featherlight-inner {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.school-fees-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 0;
+  justify-content: center;
+}
+
+.school-fee-box {
+  flex: 0 0 calc(50% - 20px);
+  background-color: #f1fdfd; /* jemná pastelová */
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #62c3be;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.school-fee-box:hover {
+  transform: translateY(-5px);
+}
+
+.school-fee-box h3 {
+  color: #156e71;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.school-fee-price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #004d4d;
+  margin-bottom: 15px;
+}
+
+.school-fee-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.school-fee-box ul li {
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+/* Mobilní verze */
+@media (max-width: 768px) {
+  .school-fee-box {
+    flex: 0 0 100%;
+  }
+}
+.school-announcement {
+  background-color: #c9f0ed; /* jemná tyrkysová pastelová */
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+  border: 2px solid #62c3be;
+}
+
+.school-announcement h2 {
+  color: #156e71;
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.school-announcement p {
+  font-size: 20px;
+  color: #333;
+}
+
+.highlighted-price {
+  color: #004d4d;
+  font-weight: bold;
+  font-size: 26px;
+}
