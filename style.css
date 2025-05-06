@@ -266,8 +266,8 @@ a.social-icon {
 
 .plus-gallery-item a {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 150%;
+  height: 150%;
   position: relative;
 }
 
