@@ -255,8 +255,8 @@ a.social-icon {
 }
 
 .plus-gallery-item {
-  flex: 0 0 calc(25% - 20px);
-  max-width: calc(25% - 20px);
+  flex: 0 0 calc(30% - 20px);
+  max-width: calc(30% - 20px);
   aspect-ratio: 1/1;
   position: relative;
   overflow: hidden;
