@@ -1,5 +1,5 @@
 .navigation-in .has-third-level div > ul a, .navigation-in > ul > li > a, .navigation-in > ul > li > a:hover {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 30px;
     border-radius: 0px!important;
     color: var(--color-primary);
