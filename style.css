@@ -418,7 +418,7 @@ a.social-icon {
   }
 }
 .school-announcement {
-  background-color: #c9f0ed; /* jemná tyrkysová pastelová */
+  background-color: rgba(215, 177, 190, 0.5); /* jemná tyrkysová pastelová */
   padding: 40px 30px;
   border-radius: 15px;
   text-align: center;
@@ -427,7 +427,7 @@ a.social-icon {
 }
 
 .school-announcement h2 {
-  color: #156e71;
+  color: #d8b1be;
   font-size: 28px;
   margin-bottom: 15px;
   font-weight: bold;
