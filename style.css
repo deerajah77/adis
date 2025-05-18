@@ -1,4 +1,4 @@
-[class*=" icon-login"], [class^="icon-"] {
+[class*=" icon-login"], [class^="icon-login"] {
     display: none;
 }
 .content-wrapper.container {
