@@ -1,4 +1,8 @@
-
+.btn.btn-default, a.btn.btn-default {
+    background-color: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+    color: #fff;
+}
 
 
 .navigation-in {
