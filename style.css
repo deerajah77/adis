@@ -21,8 +21,8 @@
 }
 
 .btn.btn-default, a.btn.btn-default {
-    background-color: var(--color-primary-hover);
-    border-color: var(--color-primary-hover);
+    background-color: #59abbc;
+    border-color: #59abbc;
     color: #fff;
 }
 input[type="text"], input[type="email"], textarea, select {
