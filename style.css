@@ -1,3 +1,8 @@
+.footer-newsletter .form-group [type="hidden"] + label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .btn.btn-default, a.btn.btn-default {
     background-color: var(--color-primary-hover);
     border-color: var(--color-primary-hover);
