@@ -1,3 +1,6 @@
+*, ::after, ::before {
+    border-radius: 0px!important;
+}
 #footer, .footer-rows .rate-wrapper {
     background-color: #59abbc;
 }
