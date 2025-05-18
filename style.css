@@ -222,7 +222,7 @@ button[type="submit"]:hover {
 }
 
 #footer a {
-    color: var(--color-primary);
+    /*color: var(--color-primary);*/
 }
 a.social-icon {
     background-color: #62c3be;
