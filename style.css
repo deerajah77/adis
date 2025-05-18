@@ -237,7 +237,7 @@ a.social-icon {
     padding-bottom: 0px;
 }
 
-.navigation-in .has-third-level div > ul a, .navigation-in > ul > li > a, .navigation-in > ul > li > a:hover {
+.navigation-in .has-third-level div > ul a, > ul > li > a, > ul > li > a:hover {
     color: #ffffff;
 }
 @media (min-width:768px) {
