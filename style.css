@@ -1,6 +1,9 @@
 .branch-content a.button-primary {
     background-color: #59abbc!important;
 }
+.branch-content a.button-primary:hover {
+    background-color: #156e71!important;
+}
 
 .footer-newsletter .form-group [type="hidden"] + label {
     font-size: 13px;
