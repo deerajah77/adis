@@ -264,7 +264,9 @@ a.social-icon {
 }
 @media (min-width:768px) {
     .navigation-in {
-        background-color: #59abbc;
+        /*background-color: #59abbc;*/
+        background-color: black;
+        
     }
 }
 
