@@ -1,5 +1,5 @@
 .branch-content a.button-primary:hover {
-    background-color: #59abbc;
+    background-color: #59abbc!important;
 }
 
 .footer-newsletter .form-group [type="hidden"] + label {
