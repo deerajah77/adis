@@ -1,6 +1,9 @@
-/*, ::after, ::before {
+.navigation-in .has-third-level div > ul a, .navigation-in > ul > li > a, .navigation-in > ul > li > a:hover {
+    padding-top: 0px;
+    padding-bottom: 0px;
     border-radius: 0px!important;
-}*/
+    color: var(--color-primary);
+}
 #footer, .footer-rows .rate-wrapper {
     background-color: #59abbc;
 }
