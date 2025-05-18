@@ -24,12 +24,12 @@
 }
 
 .btn.btn-default, a.btn.btn-default {
-    background-color: #59abbc;
-    border-color: #59abbc;
+    background-color: #d8b1be;
+    border-color: #d8b1be;
     color: #fff;
 }
 input[type="text"], input[type="email"], textarea, select {
-    border: 2px solid #59abbc!important;
+    border: 2px solid #d8b1be!important;
 }
 
 .navigation-in {
