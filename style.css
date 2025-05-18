@@ -241,7 +241,7 @@ button[type="submit"]:hover {
 }
 
 #footer a {
-    color: var(--color-primary);
+    color: #59abbc;
 }
 a.social-icon {
     background-color: #62c3be;
