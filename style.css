@@ -240,11 +240,11 @@ button[type="submit"]:hover {
 
 
 #footer h4 {
-    color: var(--color-primary, #156e71);
+    color: #ffff;
 }
 
 #footer a {
-    color: #59abbc;
+    color: #ffff;
 }
 a.social-icon {
     background-color: #62c3be;
