@@ -1,11 +1,12 @@
 
 
-[class*=" icon-login"], [class^="icon-login"] {
-    display: none;
-}
+[class*=" icon-login"], [class^="icon-login"],
 [class*=" icon-cart"], [class^="icon-cart"] {
-    display: none;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
+
 
 .section {
     margin-bottom: 20px;
