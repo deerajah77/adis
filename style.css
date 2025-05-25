@@ -417,9 +417,9 @@ a.social-icon {
 }
 
 .featherlight-inner img {
-  width: 150% !important;
+  width: auto !important;
   height: auto !important;
-  max-height: 150% !important;
+  max-height: auto !important;
   object-fit: contain;
 }
 
