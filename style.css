@@ -381,6 +381,9 @@ a.social-icon {
     }
 }
 /*část pro galerii*/
+.plus-gallery-item, .ui-menu {
+    border-color: rgba(218, 218, 218, 0);
+}
 
 .plus-gallery-wrap {
   max-width: 1200px;
