@@ -402,7 +402,7 @@ a.social-icon {
 }
 
 .plus-gallery-item img {
-  width: 100%;
+  width: 150%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
