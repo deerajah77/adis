@@ -382,7 +382,7 @@ a.social-icon {
 }
 /*část pro galerii*/
 .cboxPhoto {
-    width: 800px;
+    width: 800px!important;
 }
 
 .plus-gallery-item, .ui-menu {
