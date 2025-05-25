@@ -417,9 +417,9 @@ a.social-icon {
 }
 
 .featherlight-inner img {
-  width: 100% !important;
+  width: 150% !important;
   height: auto !important;
-  max-height: 100% !important;
+  max-height: 150% !important;
   object-fit: contain;
 }
 
@@ -430,7 +430,7 @@ a.social-icon {
     max-width: 100%;
   }
 }
-
+/*konec úpravy galerie*/
 
 /* Lightbox styl */
 .featherlight-content {
