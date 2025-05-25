@@ -93,13 +93,6 @@
     }
   }
 
-
-[class*=" icon-login"], [class^="icon-login"] {
-    display: none;
-}
-[class*=" icon-cart"], [class^="icon-cart"] {
-    display: none;
-}
 .content-wrapper.container {
     background-color: rgba(255, 255, 255, 0);
 }
