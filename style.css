@@ -402,8 +402,8 @@ a.social-icon {
 }
 
 .plus-gallery-item img {
-  width: 150%;
-  height: 150%;
+  width: auto!important;
+  height: auto!important;
   object-fit: cover;
   border-radius: 10px;
 }
