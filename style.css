@@ -169,7 +169,7 @@ h1, h2, h3, h4, p, a, button, input, textarea {
 }
 
 /* ===== Základní nastavení ===== */
-.container {
+/*.container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0px 20px !important;
@@ -179,7 +179,7 @@ h1, h2, h3, h4, p, a, button, input, textarea {
   .container {
     padding: 30px 20px!important;
   }
-}
+}*/
 
 /* ===== Nadpisy ===== */
 
