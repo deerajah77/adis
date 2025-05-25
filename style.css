@@ -380,12 +380,7 @@ a.social-icon {
         
     }
 }
-/*část pro galerii*/
-
-.plus-gallery-item, .ui-menu {
-    border-color: rgba(218, 218, 218, 0)!important;
-}
-
+/*úprava galerie*/
 .plus-gallery-wrap {
   max-width: 1200px;
   margin: 0 auto;
@@ -406,8 +401,8 @@ a.social-icon {
 }
 
 .plus-gallery-item img {
-  width: 100%!important;
-  height: 100%!important;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -421,9 +416,9 @@ a.social-icon {
 }
 
 .featherlight-inner img {
-  width: 100%!important;
-  height: 100%!important;
-  max-height: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: 100% !important;
   object-fit: contain;
 }
 
@@ -436,19 +431,6 @@ a.social-icon {
 }
 /*konec úpravy galerie*/
 
-/* Lightbox styl */
-.featherlight-content {
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
-}
-
-.featherlight-inner {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-}
 .school-fees-container {
   display: flex;
   flex-wrap: wrap;
