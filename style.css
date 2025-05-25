@@ -1,11 +1,9 @@
-
-[class*=" icon-login"], [class^="icon-login"],
-[class*=" icon-cart"], [class^="icon-cart"] {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
+[class*=" icon-login"], [class^="icon-login"] {
+    display: none;
 }
-
+[class*=" icon-cart"], [class^="icon-cart"] {
+    display: none;
+}
 
 .section {
     margin-bottom: 20px;
@@ -376,7 +374,9 @@ a.social-icon {
 }
 @media (min-width:768px) {
     .navigation-in {
-        background-color: #59abbc;        
+        background-color: #59abbc;
+        /*background-color: #0000;*/
+        
     }
 }
 
