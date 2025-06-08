@@ -127,12 +127,12 @@
 }
 
 .btn.btn-default, a.btn.btn-default {
-    background-color: #d8b1be;
-    border-color: #d8b1be;
+    background-color: #f4a9b8;
+    border-color: #f4a9b8;
     color: #fff;
 }
 input[type="text"], input[type="email"], textarea, select {
-    border: 2px solid #d8b1be!important;
+    border: 2px solid #f4a9b8!important;
 }
 
 .navigation-in {
@@ -488,7 +488,7 @@ a.social-icon {
   border-radius: 15px;
   text-align: center;
   margin-bottom: 40px;
-  border: 2px solid #d8b1be;
+  border: 2px solid #f4a9b8;
 }
 
 .school-announcement h2 {
