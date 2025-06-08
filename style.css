@@ -375,9 +375,12 @@ a.social-icon {
 }
 @media (min-width:768px) {
     .navigation-in {
-        background-color: #ebc999;
+        background-color: #7ccfd6;
         /*background-color: #0000;*/
-        
+    }
+    .navigation-in:hover {
+        background-color: var(--color-secondary);
+        /*background-color: #0000;*/
     }
 }
 /*úprava galerie*/
