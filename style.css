@@ -5,6 +5,10 @@
     display: none;
 }
 
+.banner, .banner a, .banner-category, .banner-category a, .banner-wrapper, .banner-wrapper a, .carousel-inner, .carousel-inner a {
+    /* color: var(--color-secondary); */
+}
+
 .section {
     margin-bottom: 20px;
   }
