@@ -118,7 +118,7 @@
     background-color: #59abbc!important;
 }
 .branch-content a.button-primary:hover {
-    background-color: #156e71!important;
+    background-color: #2e9a9e!important;
 }
 
 .footer-newsletter .form-group [type="hidden"] + label {
@@ -216,7 +216,7 @@ p {
 
 /* ======== Tlačítka ======== */
 .button-primary {
-  background-color: #156e71;
+  background-color: #2e9a9e;
   color: #ffffff;
   padding: 12px 25px;
   border: none;
@@ -268,7 +268,7 @@ select {
 
 input[type="submit"],
 button[type="submit"] {
-  background-color: #156e71;
+  background-color: #2e9a9e;
   color: #ffffff;
   padding: 12px 25px;
   border: none;
@@ -290,7 +290,7 @@ button[type="submit"]:hover {
 
 .faq-item {
   margin-bottom: 20px;
-  border: 2px solid #156e71;
+  border: 2px solid #2e9a9e;
   border-radius: 10px;
   background: #ffffff;
   overflow: hidden;
@@ -299,7 +299,7 @@ button[type="submit"]:hover {
 
 .faq-item.open {
   background: #c9f0ed;
-  border-color: #156e71;
+  border-color: #2e9a9e;
 }
 
 .faq-question {
@@ -309,7 +309,7 @@ button[type="submit"]:hover {
   padding: 20px;
   font-size: 18px;
   font-weight: bold;
-  color: #156e71;
+  color: #2e9a9e;
   text-align: left;
   cursor: pointer;
   display: flex;
@@ -327,7 +327,7 @@ button[type="submit"]:hover {
   font-size: 24px;
   margin-left: 10px;
   transition: transform 0.4s ease, color 0.4s ease;
-  color: #156e71;
+  color: #2e9a9e;
 }
 
 .faq-item.open .faq-icon {
@@ -454,7 +454,7 @@ a.social-icon {
 }
 
 .school-fee-box h3 {
-  color: #156e71;
+  color: #2e9a9e;
   font-size: 24px;
   margin-bottom: 10px;
 }
