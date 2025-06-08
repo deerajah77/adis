@@ -5,6 +5,13 @@
     display: none;
 }
 
+
+.home-gallery-preview-wrapper {
+    background-color: rgba(244, 169, 184, 0.36);
+    border: 2px solid #f4a9b8;
+}
+
+
 .section {
     margin-bottom: 20px;
   }
@@ -100,7 +107,7 @@
     }
   }
 
-.content-wrapper.container {
+.content-.container {
     background-color: rgba(255, 255, 255, 0);
 }
 .navigation-in .has-third-level div > ul a, .navigation-in > ul > li > a, .navigation-in > ul > li > a:hover {
