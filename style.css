@@ -6,7 +6,7 @@
 }
 
 .banner, .banner a, .banner-category, .banner-category a, .banner-wrapper, .banner-wrapper a, .carousel-inner, .carousel-inner a {
-    color: #0000;
+    color: #00000!important;
 }
 
 .section {
