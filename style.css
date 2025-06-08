@@ -111,11 +111,11 @@
     color: var(--color-primary);
 }
 #footer, .footer-rows .rate-wrapper {
-    background-color: #59abbc;
+    background-color: #7ccfd6;
 }
 
 .branch-content a.button-primary {
-    background-color: #59abbc!important;
+    background-color: #7ccfd6!important;
 }
 .branch-content a.button-primary:hover {
     background-color: #7ccfd6!important;
@@ -375,7 +375,7 @@ a.social-icon {
 }
 @media (min-width:768px) {
     .navigation-in {
-        background-color: #59abbc;
+        background-color: #7ccfd6;
         /*background-color: #0000;*/
         
     }
@@ -444,7 +444,7 @@ a.social-icon {
   background-color: rgba(201, 234, 244, 0.3); /* jemná pastelová */
   padding: 30px;
   border-radius: 12px;
-  border: 2px solid #59abbc;
+  border: 2px solid #7ccfd6;
   text-align: center;
   transition: transform 0.3s ease;
 }
