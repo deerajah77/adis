@@ -378,7 +378,7 @@ a.social-icon {
         background-color: #7ccfd6;
         /*background-color: #0000;*/
     }
-    .navigation-in:hover {
+    .navigation-in menu:hover {
         background-color: var(--color-secondary);
         /*background-color: #0000;*/
     }
