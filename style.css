@@ -441,7 +441,7 @@ a.social-icon {
 
 .school-fee-box {
   flex: 0 0 calc(50% - 20px);
-  background-color: rgba(201, 234, 244, 0.3); /* jemná pastelová */
+  background-color: rgba(124, 207, 214, 0.25); /* jemná pastelová */
   padding: 30px;
   border-radius: 12px;
   border: 2px solid #7ccfd6;
