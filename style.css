@@ -510,7 +510,7 @@ a.social-icon {
 
 .w-form-wrapper {
   background-color: #f3f7ff;      /* jemně modré pozadí */
-  padding: 7rem;                  /* dostatek prostoru kolem obsahu */
+  padding: 5rem;                  /* dostatek prostoru kolem obsahu */
   border-radius: 10px;            /* zaoblené rohy */
   /*box-shadow: 0 0 15px rgba(0,0,0,0.05);  /* jemný stín */
   margin-top: 0rem;
