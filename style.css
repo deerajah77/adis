@@ -507,3 +507,12 @@ a.social-icon {
   font-weight: bold;
   font-size: 26px;
 }
+
+.w-form-wrapper {
+  background-color: #f3f7ff;      /* jemně modré pozadí */
+  padding: 2rem;                  /* dostatek prostoru kolem obsahu */
+  border-radius: 10px;            /* zaoblené rohy */
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);  /* jemný stín */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
