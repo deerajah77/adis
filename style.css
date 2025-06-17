@@ -186,18 +186,18 @@ h1, h2, h3, h4, p, a, button, input, textarea {
 
 h1 {
   font-size: 36px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
 h2 {
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h3 {
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #62c3be;
 }
 
@@ -211,7 +211,7 @@ h4 {
 p {
   font-size: 17px;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* ======== Tlačítka ======== */
@@ -237,7 +237,7 @@ p {
   padding: 60px 20px;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 /* ===== Boxy a bloky ===== */
@@ -246,7 +246,7 @@ p {
   border: 2px solid #62c3be;
   border-radius: 10px;
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .box h3 {
@@ -260,7 +260,7 @@ textarea,
 select {
   width: 100%;
   padding: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 2px solid #62c3be;
   border-radius: 6px;
   font-size: 16px;
@@ -462,7 +462,7 @@ a.social-icon {
   font-size: 28px;
   font-weight: bold;
   color: #004d4d;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .school-fee-box ul {
@@ -486,7 +486,7 @@ a.social-icon {
   padding: 40px 30px;
   border-radius: 15px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   border: 2px solid #f4a9b8;
 }
 
