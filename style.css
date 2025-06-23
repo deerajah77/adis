@@ -516,3 +516,31 @@ a.social-icon {
   margin-top: 0rem;
   margin-bottom: 5rem;
 }
+
+@media (max-width: 768px) {
+  .branch-box {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .branch-content {
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .branch-content h3 {
+    font-size: 18px; /* místo 22px */
+  }
+
+  .branch-content p {
+    font-size: 14px; /* místo 16px */
+  }
+
+  .branch-content a.button-primary,
+  .branch-content a.button-secondary {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
