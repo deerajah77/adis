@@ -544,19 +544,3 @@ a.social-icon {
   }
 }
 
-.ribbon {
-  position: absolute;
-  top: 20px;
-  left: -40px;
-  background: #ff4081; /* růžová např. */
-  color: white;
-  padding: 5px 50px;
-  transform: rotate(-45deg);
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  z-index: 10;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  pointer-events: none; /* aby neblokoval kliknutí na obrázek */
-}
-
