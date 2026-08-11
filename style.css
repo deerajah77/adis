@@ -115,6 +115,7 @@
     padding-bottom: 5px;
     border-radius: 0px!important;
     color: var(--color-primary);
+    font-size: 20px!important;
 }
 #footer, .footer-rows .rate-wrapper {
     background-color: #7ccfd6;
