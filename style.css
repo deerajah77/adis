@@ -111,12 +111,23 @@
     background-color: rgba(255, 255, 255, 0);
 }
 .navigation-in .has-third-level div > ul a, .navigation-in > ul > li > a, .navigation-in > ul > li > a:hover {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 0px!important;
+    color: var(--color-primary);
+
+}
+
+@media (max-width: 767px) {
+.navigation-in .has-third-level div > ul a, .navigation-in > ul > li > a, .navigation-in > ul > li > a:hover {
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 0px!important;
     color: var(--color-primary);
     font-size: 20px!important;
 }
+    }
+
 #footer, .footer-rows .rate-wrapper {
     background-color: #7ccfd6;
 }
